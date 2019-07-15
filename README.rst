@@ -28,3 +28,9 @@ app/app.py
 app/templates/login.html
 
 These are the files you should focus your changes on.
+
+Then go to URL:
+
+http://localhost:5000/index
+
+Type a URL into the text field and submit.
