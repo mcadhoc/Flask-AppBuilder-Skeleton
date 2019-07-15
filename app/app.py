@@ -16,6 +16,7 @@ def login():
    if request.method == 'GET':
         datafromjs = request
         print(datafromjs)
+        # Add Summarization and Bias code here.
         result = "return this"
         resp = make_response('{"response": "'+result+'"}')
         resp.headers['Content-Type'] = "application/json"
