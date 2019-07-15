@@ -14,5 +14,17 @@ Base Skeleton to start your application using Flask-AppBuilder
     # Run dev server
     $ flask run
 
+or just:
+   cd app
+   python app.py
+
 
 That's it!!
+
+
+Files changed by John include
+
+app/app.py
+app/templates/login.html
+
+These are the files you should focus your changes on.
