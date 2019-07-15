@@ -14,7 +14,8 @@ Base Skeleton to start your application using Flask-AppBuilder
     # Run dev server
     $ flask run
 
-- or just:
+- or just::
+
    $ cd app
    $ python app.py
 
