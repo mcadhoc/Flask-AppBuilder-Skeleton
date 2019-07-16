@@ -35,6 +35,7 @@ def subjectivity(url):
     html = urlopen(url)
     soup = BeautifulSoup(html, "lxml")
 
+    # https://stackoverflow.com/questions/22799990/beatifulsoup4-get-text-still-has-javascript
     for script in soup(["script", "style"]):
         script.decompose()
 
